@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.pth
+*.npz
+testing_log/
+training_log/
+results_label_identity/
+viz_out/
+*.log
