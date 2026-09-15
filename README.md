@@ -167,11 +167,6 @@ making their code and benchmarks available:
   data processing, lattice path planner and trajectory refiner that Predicept builds on.
 - [PlanTF](https://github.com/jchengai/planTF): the Test14-random and Test14-hard benchmarks; the
   scenario lists in `config/test14-random.yaml` and `config/test14-hard.yaml` are taken from PlanTF.
-- [Causal-Planner](https://github.com/Yyb-XJTU/Causal-Planner): the idea of separating causal and
-  confounding interactions, which inspired our decision pathway.
-- [nuPlan devkit](https://github.com/motional/nuplan-devkit): dataset, simulator and metrics.
-- [Theseus](https://github.com/facebookresearch/theseus): differentiable nonlinear optimization used
-  by the trajectory refiner.
 
 Thank you!
 
