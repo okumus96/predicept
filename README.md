@@ -11,9 +11,7 @@ Below each panel: the decision (red when it changed) and its trace, `concept(ent
 and the remaining mass. Removing the agent, or only changing its state predicate, changes the
 decision, so the agent affects the decision through its predicates.
 
-Predicept is an interpretable motion planner for nuPlan. It keeps a frozen
-[GameFormer](https://github.com/MCZhi/GameFormer-Planner) backbone for scene encoding and
-prediction, and adds a predicate-grounded concept bottleneck on top of it:
+Predicept is an interpretable motion planner for nuPlan:
 
 1. **State predicates (L0).** Symbolic relations between the ego and every agent and map element
    (e.g. `sameLaneAhead`, `predictedCloseApproach`, `inLane`, `stopLine`, `redLight`) are computed
